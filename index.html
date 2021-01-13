@@ -1,0 +1,154 @@
+<html lang="e">
+    <head>
+    <title>
+        About_ME
+    </title>
+     
+        <meta charset="UTF-8">
+        <meta name=viewport content="widtth=device-width , initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    </head>
+    <body>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 4 || document.documentElement.scrollTop > 4) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+            
+        <div class="scroll-up-btn">
+            <i class="fas fa-angle-up"></i>
+        </div>
+        <nav class="navbar">
+            <div class="max-width">
+            <div class="logo"><a href="#">Portfolio</a></div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </div>
+        </nav>
+       <section class="home" id="home">
+           <div class="max-width">
+                <div class="text">
+                <div class="img"><img src="helo.gif" alt="hello" width=500></div>
+                <div class="t2">I'm Shivani</div>
+                <div class="t3">And I am a Student!</div>
+                </div>
+           </div>
+        </section>
+        <section class="about" id="about">
+               <div class="max-width">
+                   
+                   <div class="tl"><img src="img2.jpg" alt="about" ></img></div>
+                   <div class="tr"><h2>About Me</h2>My name is Shivani.I am from Telangana. I am a Student at 
+                       Ragiv Gandhi University of Knowledge Technologies, Basar.
+                       Interest in coding made me to take Computer Science Engineering.
+                       Currently, I belongs to batch 2022.
+                    </div>
+            
+               </div>
+        </section>
+        <section class="skills" id="skills">
+               <div class="max-width">
+                    <div class="tr"><h2>My Skills:</h2></div>
+                    <div class="tl">
+                        
+                        <li>Html:</li>
+                        <progress id="bar" value="90" max="100">40%</progress>
+                         <li>Css:</li>
+                         <progress id="bar" value="80" max="100">80%</progress>
+                         <li>C:</li>
+                         <progress id="bar" value="94" max="100">94%</progress>
+                         <li>Python:</li>
+                         <progress id="bar" value="80" max="100">80%</progress>
+                         <li>JavaScript:</li>
+                         <progress id="bar" value="75" max="100">75%</progress>
+                        
+                        </div>
+                </div>
+        </section>
+        <section class="projects" id="projects">
+               <h2>Projects:</h2>
+               <div class="max-width">
+                   <div class="tl">
+                        <h3>Sign Recognition</h3>
+                        <p>Applying python libraries and CNN, we designed games. Games which can be play in air through
+                            object detection.This can also be helpful to deaf and dumb people. Detecting the sign, which made by defected person 
+                            and producing the relevant output(converting to speech) to another person. Through this, we can make easy communication between the people. 
+                        </p>
+                    </div>  
+                    <div class="tr">
+                        <img src="pro.gif" alt="sign recognition"></img>
+                    </div>    
+                </div>
+       </section>
+       <section class="hobbies" id="hobbies">
+               <div class="max-width">
+                   <div class="tl"><h2>My_Hobbies:</h2></div>
+                   <div class="tr">
+                       <div class="col">Learning new things in coding</div>
+                       <div class="col">Improving technical skills in my stream</div>
+                       <div class="col">Listening Music, Drawing Animated cartoons, Cooking</div>
+                   </div>
+               </div>
+       </section>
+       <section class="contact" id="contact">
+               <div class="max-width">
+                   <div class="tl"><h2>Contact_me:</h2>
+                    <img src="img4.gif" alt="<--"></img>
+
+                    </div>
+                   <div class="tr">
+        
+                   <table>
+                       <tr>
+                           <td>Your Name:</td>
+                           <td><input type="text" placeholder="Enter your name.." ></input></td>
+                       </tr>
+                       <tr>
+                           <td>Email Id:</td>
+                           <td><input type="email"></input></td>
+                       </tr>
+                       <tr>
+                           <td>Your Message:</td>
+                           <td><textarea rows=8 cols=60 placeholder="Enter your message here.."></textarea></td>
+                       </tr>
+    
+                   </table>
+                   <button>Submit</button>
+
+                    </div>
+               </div>
+        </section>
+       <footer>
+           <p>Shivani|<a type="email" href="shivanim849@gmail.com">shivanim849@gmail.com</a></p>
+       </footer>
+    </body>
+</html>

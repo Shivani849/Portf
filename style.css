@@ -1,0 +1,308 @@
+*{
+    text-decoration: none;
+}
+.navbar{
+    background-color:teal;
+    font-family: cursive;
+    width:100%;
+    background-image: url(img5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.navbar .max-width{
+    display:flex;
+    align-items : center;
+    justify-content: space-between;
+}
+.max-width{
+    max-width: 1300px;
+    padding:0 80px;
+    margin: auto;
+}
+.navbar .menu li a{
+    color:black;
+    font-size:30px;
+    margin-left:25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color:lightsteelblue;
+}
+.navbar .menu li{
+    display:inline-block;
+}
+.navbar .logo a{
+    font-size: 30px;
+    color:gray;
+}
+.home{
+    display:flex;
+    height:15cm;
+    font-size: 30;
+    font-family:inherit;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .text .img{
+  width:30px;
+  float:left;
+}
+.home .text .t2{
+    font-size:60px;
+    padding-top:20vh;
+    padding-left: 80vh;
+    font-family:fantasy;
+}
+.home .text .t3{
+    font-size:40px;
+    font-family:cursive;
+    padding-left:80vh;
+}
+.menu-btn{
+    color:white;
+    font-size:26px;
+    cursor:pointer;
+    display:none;
+}
+@media (max-width: 991px) {
+    .max-width{
+        padding: 0 50px;
+    }
+}
+.about .max-width{
+    font-size:30px;
+    height:16cm;
+    width:28cm;
+}
+.about .max-width .tl{
+    width:14cm;
+    height:16cm;
+    float:left;
+    
+}
+.about .max-width .tr{
+    width:14cm;
+    height:16cm;
+    float:right;
+    
+}
+.about .max-width .tl img{
+    padding-top:2cm;
+}
+.about .max-width .tr h2{
+    padding-top:2cm;
+}
+
+.about{
+    background-color:thistle;
+    border:6px solid rgb(165, 49, 165);
+    margin:30px;
+    
+}
+.skills .max-width .tl #bar{
+    height:0.9cm;
+    width:9cm;
+    
+}
+.skills .max-width .tl{
+    float:right;
+    padding-top:3cm;
+    width:15cm;
+    height:10cm;
+}
+.skills .max-width .tl li{
+    list-style-type: none;
+    font-size: 30;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.skills .max-width .tr{
+    font-size:30;
+    font-family:'Arial Narrow Bold',cursive;
+    float:left;
+    height:10cm;
+    width:10cm;
+}
+.skills .max-width .tr h2{
+    padding-top:6cm;
+}
+.skills .max-width{
+
+    height:18cm;
+    width:30cm;
+
+}
+.projects .max-width .tl{
+    width:600;
+    height:400;
+    font-size:26;
+    float:right;
+    font-style:italic;
+    font-family:cursive;
+}
+.projects .max-width .tl h3{
+    border:3px solid teal;
+    background-color: yellow;
+    color:black;
+}
+.projects .max-width .tl p{
+    border:3px solid teal;
+}
+.projects .max-width .tr img{
+    width:300;
+    height:200;
+    padding-top:3cm;
+    padding-left:4cm;
+    float:left;
+
+}
+.projects .max-width{
+    width:1100;
+    height:600;
+} 
+.projects h2{
+    font-size:40;
+    font-family:cursive;
+    text-align:center;
+}
+.hobbies .max-width .tl{
+
+    width:30cm;
+    height:2cm;
+}
+.hobbies .max-width .tl h2{
+    text-align:center;
+    font-size:30;
+    font-family:'Arial Narrow Bold',cursive;
+}
+.hobbies .max-width .tr{
+    width:30cm;
+    height:6cm;
+    padding-left:5cm;
+    
+}
+.hobbies .max-width .tr .col{
+    display:inline-flex;
+    font-size:28;
+    font-style: italic;
+    height:3cm;
+    width:9cm;
+    color:yellow;
+    background-color: black;
+    border:2px solid yellow;
+    text-align:center;
+}
+.hobbies{
+    width:30cm;
+    height:15cm;
+    
+}
+.contact .max-width{
+    width:30cm;
+    height:10cm;
+}
+.contact .max-width .tl{
+    float:right;
+}
+    
+.contact .max-width .tr{
+    float:left;
+
+}
+.contact .max-width .tl h2{
+
+
+    padding-right:5cm;
+    font-size:28;
+    font-family:'Arial Narrow Bold',cursive;
+
+}
+.contact .max-width .tl img{
+    width:6cm;
+    height:3cm;
+}
+.contact .max-width .tr table{
+    padding:23px;
+    font-size:26;
+    padding-top:2cm;
+    padding-left:2cm;
+    font-family:cursive;
+    border:1px solid yellow;
+}
+.contact .max-width .tr input{
+    width:7cm;
+    height:1cm;
+}
+.contact .max-width .tr button{
+    width:2cm;
+    height:1cm;
+    background-color:rgb(99, 181, 206);
+    font-size:19;
+    cursor:pointer;
+    text-decoration: none;
+    border-radius: 12px;
+    border:none;
+}
+.contact .max-width .tr span{
+    color:blue;
+    text-decoration: line;
+}
+footer{
+    text-align:center;
+    color:rgb(42, 53, 58);
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+@media (max-width: 1300px){
+    .about .max-width{
+        font-family: cursive;
+        font-size:30px;
+        height:38cm;
+        width:100%;
+    }
+    .skills .max-width{
+
+        height:36cm;
+        width:100%;
+    }
+    .projects .max-width{
+        width:100%;
+        height:1200;
+       
+    } 
+    .hobbies .max-width .tr .col{
+        display:block;
+    }
+    .hobbies{
+        width:30cm;
+        height:24cm;
+    }
+    .hobbies .max-width .tl h2{
+        text-align: left;
+    }
+    .contact .max-width{
+        width:100%;
+        height:20cm;
+    }
+    .contact .max-width .tl h2{
+        float:top;
+    }
+    
+}
