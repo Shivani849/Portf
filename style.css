@@ -263,13 +263,13 @@ footer{
     background-color:black;
     color: white;
     cursor: pointer;
-    padding: 15px;
+    padding: 20px;
     border-radius: 50%;
   }
   
   #myBtn:hover {
     background-color: #555;
-  }
+  }/*
 @media (max-width: 1300px){
     .about .max-width{
         font-family: cursive;
@@ -305,4 +305,4 @@ footer{
         float:top;
     }
     
-}
+}*/
